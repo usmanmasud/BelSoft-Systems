@@ -43,7 +43,10 @@ const ReachOutSection = () => {
                                     className="bg-[#FAFAFA] lg:w-[520px] px-6 py-4 h-25  focus:outline-none focus:ring-2 focus:ring-blue-500 md:w-[100%]"
                                 />
                             </div>
-                            <button className=" bg-[rgba(0,181,116,1)] text-[#FFFFFF] font-bold hover:bg-blue-500 transition duration-300 w-38 px-9 py-2.5 h-14">
+                            <button onClick={(e) => {
+                                e.preventDefault()
+                                alert('form submitted')
+                            }} className=" bg-[rgba(0,181,116,1)] text-[#FFFFFF] font-bold hover:bg-blue-500 transition duration-300 w-38 px-9 py-2.5 h-14">
                                 Submit
                             </button>
                         </form>
