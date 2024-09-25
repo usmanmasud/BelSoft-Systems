@@ -3,9 +3,9 @@ import React from 'react';
 const IntroSection = () => {
     return (
         <section className="py-16">
-            <div className="container mx-auto px-6 md:flex md:items-center">
+            <div className="container mx-auto  md:flex md:items-center">
                 {/* Text Section */}
-                <div className="md:w-1/2">
+                <div className="md:w-1/2 p-0 m-0">
                     <div className='w-[592px] h-[291px]'>
                         <h2 className="md:text-[100px] lg:text-[120px] font-bold text-[#000000] mb-[-55px]">Hey there,
                         </h2>
