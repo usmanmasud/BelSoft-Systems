@@ -7,9 +7,9 @@ const IntroSection = () => {
                 {/* Text Section */}
                 <div className="md:w-1/2">
                     <div className='w-[592px] h-[291px]'>
-                        <h2 className="text-[120px] font-bold text-[#000000] mb-[-55px]">Hey there,
+                        <h2 className="md:text-[100px] lg:text-[120px] font-bold text-[#000000] mb-[-55px]">Hey there,
                         </h2>
-                        <h2 className='text-[120px] font-bold text-[#00B574]'>I'm Terry</h2>
+                        <h2 className='md:text-[100px] lg:text-[120px] font-bold text-[#00B574]'>I'm Terry</h2>
                     </div>
 
 
