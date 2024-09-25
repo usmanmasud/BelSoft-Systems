@@ -9,8 +9,8 @@ const ReachOutSection = () => {
 
                 <div className="flex flex-col lg:flex-row justify-between">
                     {/* Left Side: Form and Social Icons */}
-                    <div className="w-[598px] h-[325px]">
-                        <p className="text-lg text-[#474747] mb-6 leading-6.5 font-Poppins w-[590px] h-[54px] text-lg">
+                    <div className="h-[325px]">
+                        <p className=" text-[#474747] mb-6 leading-6.5 font-Poppins w-[80%]  text-lg">
                             Let's create something extraordinary together. Whether you have a project in mind or just want to chat, feel free to reach out!
                         </p>
 
@@ -33,14 +33,14 @@ const ReachOutSection = () => {
                                 <input
                                     type="text"
                                     placeholder="Your Name"
-                                    className="bg-[#FAFAFA] w-[520px] px-6 py-4 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                                    className="bg-[#FAFAFA] lg:w-[520px] px-6 py-4 focus:outline-none focus:ring-2 focus:ring-blue-500"
                                 />
                             </div>
                             <div>
                                 <input
                                     type="email"
                                     placeholder="Your Email"
-                                    className="bg-[#FAFAFA] w-[520px] px-6 py-4 h-25  focus:outline-none focus:ring-2 focus:ring-blue-500"
+                                    className="bg-[#FAFAFA] lg:w-[520px] px-6 py-4 h-25  focus:outline-none focus:ring-2 focus:ring-blue-500"
                                 />
                             </div>
                             <button className=" bg-[rgba(0,181,116,1)] text-[#FFFFFF] font-bold hover:bg-blue-500 transition duration-300 w-38 px-9 py-2.5 h-14">
