@@ -7,7 +7,7 @@ const ReachOutSection = () => {
             <div className="container mx-auto px-6">
                 <h2 className="text-[40px] w-[211px] h-[42px] font-Poppins font-bold text-left text-[#00B574] mb-12">Reach Out</h2>
 
-                <div className="flex md:flex-row lg:flex-row justify-between">
+                <div className="flex  md:flex-row lg:flex-row flex-col gap-12 justify-between">
                     {/* Left Side: Form and Social Icons */}
                     <div className="h-[325px] lg:w-[50%]">
                         <p className=" text-[#474747] mb-6 leading-6.5 font-Poppins lg:w-[80%]text-lg">
@@ -50,9 +50,9 @@ const ReachOutSection = () => {
                     </div>
 
                     {/* Right Side: Thank You Message */}
-                    <div className="flex justify-center  relative w-[467px] md:w-[] md:h-[200px] h-[317px] p-0">
-                        <p className="lg:text-[100px] md:text-[70px] font-bold font-lato text-[#000000] relative w-[367px] p-0 m-0">Thank</p>
-                        <span className="p-0 m-0 absolute left-[20%] font-lato top-[40%] lg:text-[100px] w-[367px] font-bold text-[rgba(0,181,116,1)] md:text-[70px]">
+                    <div className="flex lg:justify-center md:justify-center md:relative lg:relative w-[467px] md:w-[] md:h-[200px] h-[317px] p-0">
+                        <p className="lg:text-[100px] md:text-[70px] font-bold font-lato text-[#000000] md:relative lg:relative lg:w-[367px] md:w-[367px] p-0 m-0 text-[50px]">Thank</p>
+                        <span className="p-0 m-0 md:absolute lg:absolute md:left-[20%] lg:left-[20%] font-lato md:top-[40%] lg:top-[40%] text-[50px] lg:text-[100px] w-[367px] font-bold text-[rgba(0,181,116,1)] md:text-[70px]">
                             YOU.
                         </span>
                     </div>

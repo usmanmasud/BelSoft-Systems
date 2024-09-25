@@ -12,7 +12,7 @@ const IntroSection = () => {
                         <h2 className='md:text-[100px] lg:text-[120px] text-[70px] leading-[150px] font-bold text-[#00B574]'>I'm Terry</h2>
                     </div>
 
-                    <p className="text-lg text-[#474747] mb-2 lg:w-[454px] h-[112px]">
+                    <p className="text-lg text-[#474747] sm:pl-20  mb-2 lg:w-[454px] h-[112px]">
                         I craft intuitive designs that connect with users and drive results. As a multidisciplinary designer, I bring ideas to life through a perfect blend of creativity, strategy, and user-centered design.
                         Lets talk
                     </p>
