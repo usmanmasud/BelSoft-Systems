@@ -18,8 +18,8 @@ const Navbar = () => {
                     {/* Desktop Menu */}
                     <ul className="hidden md:flex space-x-4 ">
                         <li className='font-bold'><a href="#" className="text-black hover:text-blue-600">Home</a></li>
-                        <li><a href="#" className="text-gray-600 hover:text-blue-600">About</a></li>
                         <li><a href="#" className="text-gray-600 hover:text-blue-600">Services</a></li>
+                        <li><a href="#" className="text-gray-600 hover:text-blue-600">Portfolio</a></li>
                         <li><a href="#" className="text-gray-600 hover:text-blue-600">Contact</a></li>
                     </ul>
 
