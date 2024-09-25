@@ -7,11 +7,11 @@ const ReachOutSection = () => {
             <div className="container mx-auto px-6">
                 <h2 className="text-3xl font-bold text-center text-[rgba(0,181,116,1)] mb-12">Reach Out</h2>
 
-                <div className="flex flex-col lg:flex-row justify-between items-center">
+                <div className="flex flex-col lg:flex-row justify-between ">
                     {/* Left Side: Form and Social Icons */}
-                    <div className="lg:w-1/2">
+                    <div className="w-3/6">
                         <p className="text-lg text-gray-600 mb-6">
-                            I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
+                            Let’s create something extraordinary together. Whether you have a project in mind or just want to chat, feel free to reach out!
                         </p>
 
                         {/* Social Icons */}
@@ -43,19 +43,18 @@ const ReachOutSection = () => {
                                     className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
                                 />
                             </div>
-                            <button className="w-full bg-[rgba(0,181,116,1)] text-white py-2 rounded-lg font-bold hover:bg-blue-500 transition duration-300">
+                            <button className=" bg-[rgba(0,181,116,1)] text-whiterounded-lg font-bold hover:bg-blue-500 transition duration-300 w-38 px-9 py-2.5">
                                 Submit
                             </button>
                         </form>
                     </div>
 
                     {/* Right Side: Thank You Message */}
-                    <div className="lg:w-1/2 mt-12 lg:mt-0 text-center lg:text-left">
-                        <h3 className="text-3xl font-bold text-gray-800">Thank</h3>
-                        <h3 className="text-3xl font-bold text-[rgba(0,181,116,1)] ml-12">You.</h3>
-                        <p className="text-lg text-gray-600 mt-4">
-                            I appreciate you reaching out and look forward to connecting.
-                        </p>
+                    <div className=" flex justify-center relative">
+                        <p className="text-9xl font-bold text-gray-800 relative">Thank</p>
+                        <span className="absolute left-[40%] top-[50%] text-9xl font-bold text-[rgba(0,181,116,1)]">
+                            YOU.
+                        </span>
                     </div>
                 </div>
             </div>
