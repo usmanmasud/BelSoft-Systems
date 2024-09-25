@@ -15,7 +15,7 @@ const MyWorkSection = () => {
             <div className="container mx-auto px-6">
                 <h2 className="text-[40px] font-bold text-left text-[#00B574] mb-4">My Work</h2>
 
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-8">
                     {works.map((project, index) => (
                         <div key={index} className="pb-4 flex flex-col">
                             <img src={project.image} alt={project.title} className="w-full  object-cover h-[330px]" />
