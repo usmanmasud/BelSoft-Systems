@@ -18,7 +18,7 @@ const ServicesSection = () => {
                     {services.map((service, index) => (
                         <div key={index} className="w-[66px] h-[290px] flex items-center py-[64px] px-[42px]">
                             {/* Service Image */}
-                            <img src={service.image} alt={service.title} className="w-[79.25px] h-[80.40px] mr-4" />
+                            <img src={service.image} alt={service.title} className="w-[79.25px] h-[80.40px] mr-4 bg-[#159DB0]" />
                             {/* Service Title and Description */}
                             <div>
                                 <h3 className="text-[27px] font-semibold text-[#000000]">{service.title}</h3>
