@@ -11,53 +11,21 @@ const MyWorkSection = () => {
     ];
 
     return (
-        // <section className="py-16">
-        //     <div className="container mx-auto px-6">
-        //         <h2 className="text-[40px] font-bold text-left text-[#00B574] mb-4">
-        //             My Work
-        //         </h2>
-
-        //         {/* Grid for Works */}
-        //         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-        //             {works.map((work, index) => (
-        //                 <div key={index} className="overflow-hidden w-[404px] h-[416px] gap-10">
-        //                     <img src={work.image} alt={work.title} className="w-full  object-cover h-[330px]" />
-
-        //                     <div className="p-0">
-        //                         <div className="flex justify-between items-center mb-2 mt-4">
-        //                             <h3 className="text-[20px] font-Poppins text-[#000000] mb-2">{work.title}</h3>
-        //                             <button className="bg-[#00B574] text-[#FFFFFF] w-[92px] h-[30px]">
-        //                                 Case Study
-        //                             </button>
-        //                         </div>
-
-        //                         <p className="text-[#474747] text-[17px]">{work.description}</p>
-        //                     </div>
-        //                 </div>
-        //             ))}
-        //         </div>
-        //     </div>
-        // </section>
-
-
         <section className="py-16">
             <div className="container mx-auto px-6">
-                <h2 className="text-[40px] font-bold text-left text-[#00B574] mb-4">My Work</h2> {/* Larger heading */}
+                <h2 className="text-[40px] font-bold text-left text-[#00B574] mb-4">My Work</h2>
 
-                {/* Projects Grid */}
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                     {works.map((project, index) => (
                         <div key={index} className="pb-4 flex flex-col">
-                            {/* Project Title and Case Study Button */}
                             <img src={project.image} alt={project.title} className="w-full  object-cover h-[330px]" />
                             <div className="flex justify-between items-center mt-4">
-                                <h3 className="text-2xl font-semibold text-gray-800">{project.title}</h3> {/* Larger title */}
-                                <button className="bg-[rgba(0,181,116,1)] text-white font-bold py-2 px-4"> {/* Larger button padding */}
+                                <h3 className="text-2xl font-semibold text-gray-800">{project.title}</h3>
+                                <button className="bg-[rgba(0,181,116,1)] text-white font-bold py-2 px-4">
                                     Case Study
                                 </button>
                             </div>
-                            {/* Project Description */}
-                            <p className="text-lg text-gray-600">{project.description}</p> {/* Larger description */}
+                            <p className="text-lg text-gray-600">{project.description}</p>
                         </div>
                     ))}
                 </div>
