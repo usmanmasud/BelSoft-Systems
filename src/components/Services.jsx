@@ -13,7 +13,7 @@ const ServicesSection = () => {
             <div className="container mx-auto px-6">
                 <h2 className="text-3xl font-bold text-left p-[30px] text-[rgba(0,181,116,1)]">My Services</h2>
                 {/* Services Grid */}
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-90">
                     {services.map((service, index) => (
                         <div key={index} className="flex items-centerp-4">
                             {/* Service Image */}

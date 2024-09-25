@@ -20,8 +20,8 @@ const MyWorkSection = () => {
                 {/* Grid for Works */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                     {works.map((work, index) => (
-                        <div key={index} className="overflow-hidden w-[404px] h-[416px] gap-[24px]">
-                            <img src={work.image} alt={work.title} className="w-full h-48 object-cover h-[330px]" />
+                        <div key={index} className="overflow-hidden w-[404px] h-[416px] gap-10">
+                            <img src={work.image} alt={work.title} className="w-full  object-cover h-[330px]" />
 
                             <div className="p-0">
                                 <div className="flex justify-between items-center mb-2 mt-4">
