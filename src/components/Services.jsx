@@ -19,7 +19,7 @@ const ServicesSection = () => {
 
                             <div>
                                 <h3 className="text-xl font-semibold text-gray-800">{service.title}</h3>
-                                <p className="text-gray-600">{service.description}</p>
+                                <p className="text-gray-600 w-[350px]">{service.description}</p>
                             </div>
                         </div>
                     ))}
