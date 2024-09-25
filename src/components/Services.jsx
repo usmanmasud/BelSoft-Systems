@@ -26,7 +26,7 @@ const ServicesSection = () => {
                         <div key={index} className="w-[66px] h-[290px] flex items-center py-[64px] px-[42px]">
 >>>>>>> 30044803b64125ac3ef228abe81f5a17430d4322
                             {/* Service Image */}
-                            <img src={service.image} alt={service.title} className="w-[79.25px] h-[80.40px] mr-4" />
+                            <img src={service.image} alt={service.title} className="w-[79.25px] h-[80.40px] mr-4 bg-[#159DB0]" />
                             {/* Service Title and Description */}
                             <div>
                                 <h3 className="text-[27px] font-semibold text-[#000000]">{service.title}</h3>
