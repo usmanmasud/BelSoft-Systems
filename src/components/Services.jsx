@@ -11,26 +11,17 @@ const ServicesSection = () => {
     return (
         <section className="py-16">
             <div className="container mx-auto px-6">
-<<<<<<< HEAD
-                <h2 className="text-3xl font-bold text-left text-[rgba(0,181,116,1)]">My Services</h2>
-=======
-                <h2 className="text-[40px] font-bold text-left p-[20px] text-[#00B574]">My Services</h2>
->>>>>>> 30044803b64125ac3ef228abe81f5a17430d4322
-
+                <h2 className="text-3xl font-bold text-left p-[30px] text-[rgba(0,181,116,1)]">My Services</h2>
                 {/* Services Grid */}
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                     {services.map((service, index) => (
-<<<<<<< HEAD
-                        <div key={index} className="flex items-center  p-4">
-=======
-                        <div key={index} className="w-[66px] h-[290px] flex items-center py-[64px] px-[42px]">
->>>>>>> 30044803b64125ac3ef228abe81f5a17430d4322
+                        <div key={index} className="flex items-centerp-4">
                             {/* Service Image */}
-                            <img src={service.image} alt={service.title} className="w-[79.25px] h-[80.40px] mr-4 bg-[#159DB0]" />
+                            <img src={service.image} alt={service.title} className="w-20 h-20 mr-4" />
                             {/* Service Title and Description */}
                             <div>
-                                <h3 className="text-[27px] font-semibold text-[#000000]">{service.title}</h3>
-                                <p className="text-[#474747]  w-[455.04px] h-[108px] font-[20px] ">{service.description}</p>
+                                <h3 className="text-xl font-semibold text-gray-800">{service.title}</h3>
+                                <p className="text-gray-600">{service.description}</p>
                             </div>
                         </div>
                     ))}
@@ -39,5 +30,4 @@ const ServicesSection = () => {
         </section>
     );
 };
-
 export default ServicesSection;
