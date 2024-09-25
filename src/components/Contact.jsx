@@ -45,7 +45,7 @@ const ReachOutSection = () => {
                             </div>
                             <button onClick={(e) => {
                                 e.preventDefault()
-                                alert('form submitted')
+                                alert('')
                             }} className=" bg-[rgba(0,181,116,1)] text-[#FFFFFF] font-bold hover:bg-blue-500 transition duration-300 w-38 px-9 py-2.5 h-14">
                                 Submit
                             </button>
