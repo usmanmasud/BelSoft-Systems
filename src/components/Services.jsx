@@ -1,12 +1,7 @@
 import React from 'react';
+import { services } from './services';
 
 const ServicesSection = () => {
-    const services = [
-        { title: 'Art Direction', description: 'I lead creative teams to execute cohesive visual concepts, overseeing the entire design process to ensure alignment with brand identity and project goal', image: '/artDirection.png' },
-        { title: 'UI/UX Design', description: 'I design user-friendly interfaces that are both visually appealing and highly functional, focusing on enhancing the overall user experience through research, wireframing, and prototyping.', image: '/uiux.png' },
-        { title: 'Visual Design', description: 'I craft compelling visuals that effectively communicate messages, focusing on branding, digital marketing, and web design to create visually striking and impactful designs.', image: '/visualdesign.png' },
-        { title: 'Product Design', description: 'I create products that solve real-world problems, blending design and strategy throughout the product lifecycle to meet both user needs and business goals.', image: '/productdesign.png' },
-    ];
 
     return (
         <section className="py-16">
@@ -15,7 +10,7 @@ const ServicesSection = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2  gap-90">
                     {services.map((service, index) => (
                         <div key={index} className="flex m-10 items-centerp-4">
-                            <img src={service.image} alt={service.title} className="w-20 h-20 mr-4" />
+                            < img src={service.image} alt={service.title} className={`w-20 h-20 mr-4 bg-${service.bg}`} loading="lazy" />
 
                             <div>
                                 <h3 className="text-xl font-semibold text-gray-800">{service.title}</h3>
@@ -25,7 +20,7 @@ const ServicesSection = () => {
                     ))}
                 </div>
             </div>
-        </section>
+        </section >
     );
 };
 export default ServicesSection;

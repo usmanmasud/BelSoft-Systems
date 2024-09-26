@@ -1,0 +1,6 @@
+export const services = [
+    { title: 'Art Direction', description: 'I lead creative teams to execute cohesive visual concepts, overseeing the entire design process to ensure alignment with brand identity and project goal', image: '/artDirection.png', bg: '[rgba(21, 157, 176, 1)]' },
+    { title: 'UI/UX Design', description: 'I design user-friendly interfaces that are both visually appealing and highly functional, focusing on enhancing the overall user experience through research, wireframing, and prototyping.', image: '/uiux.png', bg: '[rgba(237, 161, 69, 1)]' },
+    { title: 'Visual Design', description: 'I craft compelling visuals that effectively communicate messages, focusing on branding, digital marketing, and web design to create visually striking and impactful designs.', image: '/visualdesign.png', bg: '[rgba(247, 123, 136, 1)]' },
+    { title: 'Product Design', description: 'I create products that solve real-world problems, blending design and strategy throughout the product lifecycle to meet both user needs and business goals.', image: '/productdesign.png', bg: '[rgba(64, 64, 64, 1)]' },
+];

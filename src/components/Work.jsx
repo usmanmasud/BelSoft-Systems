@@ -1,14 +1,7 @@
 import React from 'react';
+import { works } from './project';
 
 const MyWorkSection = () => {
-    const works = [
-        { title: 'Project Name', description: 'Description (i.e Nike Photoshoot)', image: '/project1.jfif' },
-        { title: 'Project Name', description: 'Description (i.e App UI Design)', image: '/project2.jfif' },
-        { title: 'Project Name', description: 'Description', image: '/project3.jfif' },
-        { title: 'Project Name', description: 'Description', image: '/project4.jfif' },
-        { title: 'Project Name', description: 'Description', image: '/project5.jfif' },
-        { title: 'Project Name', description: 'Description', image: '/project6.jfif' },
-    ];
 
     return (
         <section className="py-16">
@@ -18,7 +11,7 @@ const MyWorkSection = () => {
                 <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-8">
                     {works.map((project, index) => (
                         <div key={index} className="pb-4 flex flex-col">
-                            <img src={project.image} alt={project.title} className="w-full  object-cover h-[330px]" />
+                            <img src={project.image} alt={project.title} className="w-full  object-cover h-[330px]" loading="lazy" />
                             <div className="flex justify-between items-center mt-4">
                                 <h3 className="text-2xl font-semibold text-gray-800">{project.title}</h3>
                                 <button className="bg-[rgba(0,181,116,1)] text-white font-bold py-2 px-4">
